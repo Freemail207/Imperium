@@ -1,7 +1,465 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bfa64c71-ec07-4a74-85bc-3ea3ce585b5d" name="Default Changelist" comment="" />
+    <list default="true" id="bfa64c71-ec07-4a74-85bc-3ea3ce585b5d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/components/ItemsList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/SearchPlugins.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/style.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/.tonic_example.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/.tonic_example.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/dist/ajv.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/dist/ajv.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/dist/ajv.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/dist/ajv.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/dist/ajv.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/dist/ajv.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/dist/nodent.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/dist/nodent.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/dist/regenerator.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/dist/regenerator.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/ajv.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/ajv.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/ajv.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/ajv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/async.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/compile/_rules.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/compile/_rules.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/compile/equal.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/compile/equal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/compile/formats.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/compile/formats.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/compile/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/compile/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/compile/resolve.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/compile/resolve.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/compile/rules.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/compile/rules.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/compile/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/compile/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/compile/validation_error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/_limit.jst" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/_limit.jst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/anyOf.jst" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/anyOf.jst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/custom.jst" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/custom.jst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/definitions.def" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/definitions.def" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/dependencies.jst" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/dependencies.jst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/errors.def" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/errors.def" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/format.jst" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/format.jst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/items.jst" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/items.jst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/missing.def" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/missing.def" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/oneOf.jst" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/oneOf.jst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/properties.jst" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/properties.jst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/ref.jst" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/ref.jst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/required.jst" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/required.jst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/v5/_formatLimit.jst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/v5/constant.jst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/v5/patternRequired.jst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/v5/switch.jst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/validate.jst" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/validate.jst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/_formatLimit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/_limit.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/_limit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/_limitItems.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/_limitItems.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/_limitLength.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/_limitLength.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/_limitProperties.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/_limitProperties.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/allOf.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/allOf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/anyOf.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/anyOf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/constant.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/dependencies.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/dependencies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/enum.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/enum.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/format.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/format.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/items.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/items.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/multipleOf.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/multipleOf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/not.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/not.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/oneOf.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/oneOf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/pattern.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/pattern.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/patternRequired.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/properties.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/properties.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/ref.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/ref.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/required.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/required.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/switch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/uniqueItems.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/uniqueItems.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/validate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/keyword.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/keyword.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/refs/json-schema-v5.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/refs/json-schema-v5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/v5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/scripts/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/scripts/bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/scripts/compile-dots.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/scripts/compile-dots.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/asn1/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/asn1/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/asn1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/asn1/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/asn1/lib/ber/errors.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/asn1/lib/ber/errors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/asn1/lib/ber/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/asn1/lib/ber/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/asn1/lib/ber/reader.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/asn1/lib/ber/reader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/asn1/lib/ber/writer.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/asn1/lib/ber/writer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/asn1/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/asn1/lib/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/asn1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/asn1/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/asn1/tst/ber/reader.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/asn1/tst/ber/writer.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/assert-plus/CHANGES.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/assert-plus/CHANGES.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/assert-plus/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/assert-plus/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/assert-plus/assert.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/assert-plus/assert.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/assert-plus/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/assert-plus/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/aws-sign2/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/aws-sign2/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/aws-sign2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/aws-sign2/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/aws4/aws4.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/aws4/aws4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/aws4/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/aws4/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dashdash/node_modules/assert-plus/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dashdash/node_modules/assert-plus/CHANGES.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dashdash/node_modules/assert-plus/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dashdash/node_modules/assert-plus/assert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dashdash/node_modules/assert-plus/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ecc-jsbn/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ecc-jsbn/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ecc-jsbn/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ecc-jsbn/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ecc-jsbn/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/form-data/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/form-data/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/form-data/lib/form_data.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/form-data/lib/form_data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/form-data/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/form-data/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/getpass/node_modules/assert-plus/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/getpass/node_modules/assert-plus/CHANGES.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/getpass/node_modules/assert-plus/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/getpass/node_modules/assert-plus/assert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/getpass/node_modules/assert-plus/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-schema/lib/afterRequest.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/har-schema/lib/afterRequest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-schema/lib/beforeRequest.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/har-schema/lib/beforeRequest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-schema/lib/browser.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/har-schema/lib/browser.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-schema/lib/cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/har-schema/lib/cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-schema/lib/content.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/har-schema/lib/content.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-schema/lib/cookie.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/har-schema/lib/cookie.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-schema/lib/creator.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/har-schema/lib/creator.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-schema/lib/entry.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/har-schema/lib/entry.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-schema/lib/har.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/har-schema/lib/har.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-schema/lib/header.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/har-schema/lib/header.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-schema/lib/log.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/har-schema/lib/log.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-schema/lib/page.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/har-schema/lib/page.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-schema/lib/pageTimings.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/har-schema/lib/pageTimings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-schema/lib/postData.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/har-schema/lib/postData.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-schema/lib/query.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/har-schema/lib/query.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-schema/lib/request.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/har-schema/lib/request.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-schema/lib/response.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/har-schema/lib/response.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-schema/lib/timings.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/har-schema/lib/timings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-schema/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/har-schema/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/har-validator/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/lib/browser/async.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/lib/browser/error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/lib/browser/promise.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/lib/node4/async.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/lib/node4/error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/lib/node4/promise.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/lib/node6/async.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/lib/node6/error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/lib/node6/promise.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/lib/node7/async.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/lib/node7/error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/lib/node7/promise.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/har-validator/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/src/async.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/src/error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/src/promise.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-signature/lib/parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/http-signature/lib/parser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-signature/lib/signer.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/http-signature/lib/signer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-signature/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/http-signature/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsprim/node_modules/assert-plus/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsprim/node_modules/assert-plus/CHANGES.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsprim/node_modules/assert-plus/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsprim/node_modules/assert-plus/assert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsprim/node_modules/assert-plus/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/.jscsrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/Gruntfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/Gruntfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/appveyor.yml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/appveyor.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/bin/lessc" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/bin/lessc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/dist/less.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/dist/less.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/dist/less.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/dist/less.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less-browser/add-default-options.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less-browser/add-default-options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less-browser/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less-browser/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less-browser/browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less-browser/browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less-browser/cache.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less-browser/cache.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less-browser/error-reporting.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less-browser/error-reporting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less-browser/file-manager.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less-browser/file-manager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less-browser/image-size.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less-browser/image-size.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less-browser/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less-browser/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less-browser/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less-browser/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less-node/environment.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less-node/environment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less-node/file-manager.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less-node/file-manager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less-node/fs.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less-node/fs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less-node/image-size.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less-node/image-size.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less-node/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less-node/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less-node/lessc-helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less-node/lessc-helper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less-node/plugin-loader.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less-node/plugin-loader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less-node/url-file-manager.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less-node/url-file-manager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less-rhino/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/contexts.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/contexts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/data/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/data/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/environment/abstract-file-manager.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/environment/abstract-file-manager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/environment/environment.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/environment/environment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/functions/color-blending.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/functions/color-blending.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/functions/color.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/functions/color.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/functions/data-uri.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/functions/data-uri.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/functions/default.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/functions/default.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/functions/function-caller.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/functions/function-caller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/functions/function-registry.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/functions/function-registry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/functions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/functions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/functions/math-helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/functions/math-helper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/functions/math.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/functions/math.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/functions/number.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/functions/number.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/functions/string.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/functions/string.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/functions/svg.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/functions/svg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/functions/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/functions/types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/import-manager.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/import-manager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/less-error.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/less-error.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/logger.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/logger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/parse-tree.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/parse-tree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/parse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/parser/chunker.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/parser/chunker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/parser/parser-input.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/parser/parser-input.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/parser/parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/parser/parser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/plugin-manager.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/plugin-manager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/plugins/function-importer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/render.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/render.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/source-map-builder.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/source-map-builder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/source-map-output.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/source-map-output.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/transform-tree.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/transform-tree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/tree/alpha.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/tree/anonymous.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/tree/anonymous.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/tree/assignment.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/tree/assignment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/tree/attribute.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/tree/attribute.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/tree/call.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/tree/call.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/tree/color.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/tree/color.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/tree/combinator.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/tree/combinator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/tree/comment.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/tree/comment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/tree/condition.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/tree/condition.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/tree/debug-info.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/tree/debug-info.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/tree/detached-ruleset.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/tree/detached-ruleset.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/tree/dimension.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/tree/dimension.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/tree/directive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/tree/element.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/tree/element.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/tree/expression.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/tree/expression.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/tree/extend.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/tree/extend.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/tree/import.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/tree/import.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/tree/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/tree/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/tree/javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/tree/javascript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/tree/js-eval-node.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/tree/js-eval-node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/tree/keyword.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/tree/keyword.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/tree/media.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/tree/media.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/tree/mixin-call.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/tree/mixin-call.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/tree/mixin-definition.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/tree/mixin-definition.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/tree/negative.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/tree/negative.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/tree/node.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/tree/node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/tree/operation.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/tree/operation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/tree/paren.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/tree/paren.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/tree/quoted.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/tree/quoted.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/tree/rule.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/tree/ruleset-call.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/tree/ruleset.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/tree/ruleset.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/tree/selector.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/tree/selector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/tree/unicode-descriptor.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/tree/unicode-descriptor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/tree/unit.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/tree/unit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/tree/url.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/tree/url.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/tree/value.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/tree/value.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/tree/variable.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/tree/variable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/visitors/extend-visitor.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/visitors/extend-visitor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/visitors/import-visitor.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/visitors/import-visitor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/visitors/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/visitors/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/visitors/join-selector-visitor.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/visitors/join-selector-visitor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/visitors/to-css-visitor.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/visitors/to-css-visitor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/lib/less/visitors/visitor.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/lib/less/visitors/visitor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/browser/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/browser/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/browser/css/urls.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/browser/css/urls.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/browser/jasmine-jsreporter.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/browser/jasmine-jsreporter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/browser/less.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/browser/less.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/browser/runner-VisitorPlugin-options.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/browser/runner-VisitorPlugin-options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/browser/runner-VisitorPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/browser/runner-VisitorPlugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/browser/runner-browser-options.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/browser/runner-browser-options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/browser/runner-browser-spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/browser/runner-browser-spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/browser/runner-console-errors.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/browser/runner-console-errors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/browser/runner-errors-options.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/browser/runner-errors-options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/browser/runner-errors-spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/browser/runner-errors-spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/browser/runner-filemanagerPlugin-options.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/browser/runner-filemanagerPlugin-options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/browser/runner-filemanagerPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/browser/runner-filemanagerPlugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/browser/runner-global-vars-options.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/browser/runner-global-vars-options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/browser/runner-global-vars-spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/browser/runner-global-vars-spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/browser/runner-legacy-options.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/browser/runner-legacy-options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/browser/runner-legacy-spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/browser/runner-legacy-spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/browser/runner-main-options.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/browser/runner-main-options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/browser/runner-main-spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/browser/runner-main-spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/browser/runner-modify-vars-options.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/browser/runner-modify-vars-options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/browser/runner-modify-vars-spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/browser/runner-modify-vars-spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/browser/runner-no-js-errors-spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/browser/runner-no-js-errors-spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/browser/runner-postProcessor-options.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/browser/runner-postProcessor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/browser/runner-postProcessorPlugin-options.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/browser/runner-postProcessorPlugin-options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/browser/runner-postProcessorPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/browser/runner-postProcessorPlugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/browser/runner-preProcessorPlugin-options.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/browser/runner-preProcessorPlugin-options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/browser/runner-preProcessorPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/browser/runner-preProcessorPlugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/browser/runner-production-options.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/browser/runner-production-options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/browser/runner-production-spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/browser/runner-production-spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/browser/runner-relative-urls-options.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/browser/runner-relative-urls-options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/browser/runner-relative-urls-spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/browser/runner-relative-urls-spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/browser/runner-rootpath-options.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/browser/runner-rootpath-options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/browser/runner-rootpath-relative-options.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/browser/runner-rootpath-relative-options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/browser/runner-rootpath-relative-spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/browser/runner-rootpath-relative-spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/browser/runner-rootpath-spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/browser/runner-rootpath-spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/browser/runner-strict-units-options.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/browser/runner-strict-units-options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/browser/runner-strict-units-spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/browser/runner-strict-units-spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/browser/test-runner-template.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/browser/test-runner-template.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/copy-bom.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/copy-bom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/css/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/css/colors.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/css/comments2.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/css/comments2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/css/compression/compression.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/css/compression/compression.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/css/css-3.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/css/css-3.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/css/css-escapes.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/css/css-escapes.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/css/css.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/css/debug/linenumbers-all.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/css/debug/linenumbers-all.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/css/debug/linenumbers-comments.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/css/debug/linenumbers-comments.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/css/debug/linenumbers-mediaquery.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/css/debug/linenumbers-mediaquery.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/css/functions.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/css/functions.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/css/import.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/css/import.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/css/javascript.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/css/javascript.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/css/legacy/legacy.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/css/legacy/legacy.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/css/media.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/css/merge.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/css/merge.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/css/mixins-args.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/css/no-strict-math/no-sm-operations.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/css/no-strict-math/no-sm-operations.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/css/parens.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/css/plugin.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/css/plugin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/css/static-urls/urls.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/css/static-urls/urls.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/css/url-args/urls.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/css/url-args/urls.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/css/urls.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/css/urls.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/css/variables.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/css/variables.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less-bom/colors.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less-bom/colors.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less-bom/css-3.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less-bom/css-3.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less-bom/css-escapes.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less-bom/css-escapes.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less-bom/css.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less-bom/detached-rulesets.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less-bom/detached-rulesets.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less-bom/errors/color-func-invalid-color.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less-bom/errors/color-func-invalid-color.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less-bom/errors/color-invalid-hex-code.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less-bom/errors/color-invalid-hex-code.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less-bom/errors/color-invalid-hex-code2.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less-bom/errors/color-invalid-hex-code2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less-bom/errors/detached-ruleset-2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less-bom/errors/detached-ruleset-2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less-bom/errors/functions-2-alpha.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less-bom/errors/functions-2-alpha.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less-bom/errors/import-missing.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less-bom/errors/import-missing.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less-bom/extract-and-length.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less-bom/extract-and-length.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less-bom/functions.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less-bom/functions.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less-bom/import.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less-bom/import.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less-bom/javascript.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less-bom/javascript.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less-bom/legacy/legacy.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less-bom/legacy/legacy.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less-bom/media.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less-bom/media.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less-bom/merge.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less-bom/merge.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less-bom/mixins-args.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less-bom/mixins-guards.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less-bom/mixins-guards.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less-bom/no-js-errors/no-js-errors.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less-bom/no-js-errors/no-js-errors.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less-bom/no-strict-math/no-sm-operations.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less-bom/no-strict-math/no-sm-operations.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less-bom/parens.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less-bom/plugin.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less-bom/plugin.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less-bom/plugin/plugin-global.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less-bom/plugin/plugin-global.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less-bom/plugin/plugin-local.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less-bom/plugin/plugin-local.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less-bom/plugin/plugin-transitive.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less-bom/plugin/plugin-transitive.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less-bom/plugin/plugin-tree-nodes.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less-bom/plugin/plugin-tree-nodes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less-bom/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less-bom/variables.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less-test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less/colors.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less/colors.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less/css-3.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less/css-3.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less/css-escapes.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less/css-escapes.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less/css.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less/detached-rulesets.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less/detached-rulesets.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less/errors/color-func-invalid-color.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less/errors/color-func-invalid-color.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less/errors/color-invalid-hex-code.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less/errors/color-invalid-hex-code.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less/errors/color-invalid-hex-code2.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less/errors/color-invalid-hex-code2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less/errors/detached-ruleset-2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less/errors/detached-ruleset-2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less/errors/functions-2-alpha.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less/errors/functions-2-alpha.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less/errors/import-missing.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less/errors/import-missing.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less/extract-and-length.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less/extract-and-length.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less/functions.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less/functions.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less/import.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less/import.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less/javascript.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less/javascript.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less/legacy/legacy.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less/legacy/legacy.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less/media.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less/media.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less/merge.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less/merge.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less/mixins-args.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less/mixins-guards.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less/mixins-guards.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less/no-js-errors/no-js-errors.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less/no-js-errors/no-js-errors.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less/no-strict-math/no-sm-operations.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less/no-strict-math/no-sm-operations.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less/parens.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less/plugin.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less/plugin.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less/plugin/plugin-global.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less/plugin/plugin-global.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less/plugin/plugin-local.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less/plugin/plugin-local.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less/plugin/plugin-transitive.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less/plugin/plugin-transitive.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less/plugin/plugin-tree-nodes.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less/plugin/plugin-tree-nodes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/less/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/less/variables.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/modify-vars.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/modify-vars.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/plugins/filemanager/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/plugins/filemanager/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/plugins/visitor/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/test/plugins/visitor/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/test/rhino/test-header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/oauth-sign/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/oauth-sign/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/oauth-sign/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/oauth-sign/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/oauth-sign/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/oauth-sign/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/performance-now/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/performance-now/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/performance-now/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/performance-now/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/performance-now/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/performance-now/lib/performance-now.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/performance-now/lib/performance-now.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/performance-now/license.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/performance-now/license.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/performance-now/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/performance-now/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/performance-now/src/performance-now.coffee" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/performance-now/src/performance-now.coffee" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/performance-now/test/performance-now.coffee" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/performance-now/test/performance-now.coffee" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/request/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/request/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/request/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/lib/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/request/lib/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/lib/cookies.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/request/lib/cookies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/lib/getProxyFromURI.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/request/lib/getProxyFromURI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/lib/har.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/request/lib/har.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/lib/helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/request/lib/helpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/lib/multipart.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/request/lib/multipart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/lib/oauth.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/request/lib/oauth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/lib/querystring.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/request/lib/querystring.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/lib/redirect.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/request/lib/redirect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/lib/tunnel.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/request/lib/tunnel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/node_modules/qs/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/request/node_modules/qs/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/node_modules/qs/.jscs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/node_modules/qs/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/request/node_modules/qs/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/node_modules/qs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/request/node_modules/qs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/node_modules/qs/dist/qs.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/request/node_modules/qs/dist/qs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/node_modules/qs/lib/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/request/node_modules/qs/lib/parse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/node_modules/qs/lib/stringify.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/request/node_modules/qs/lib/stringify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/node_modules/qs/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/request/node_modules/qs/lib/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/node_modules/qs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/request/node_modules/qs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/node_modules/qs/test/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/request/node_modules/qs/test/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/node_modules/qs/test/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/request/node_modules/qs/test/parse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/node_modules/qs/test/stringify.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/request/node_modules/qs/test/stringify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/node_modules/qs/test/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/request/node_modules/qs/test/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/request/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/request/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sshpk/node_modules/assert-plus/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sshpk/node_modules/assert-plus/CHANGES.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sshpk/node_modules/assert-plus/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sshpk/node_modules/assert-plus/assert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sshpk/node_modules/assert-plus/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tough-cookie/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/tough-cookie/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tough-cookie/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/tough-cookie/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tough-cookie/lib/cookie.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/tough-cookie/lib/cookie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tough-cookie/lib/memstore.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/tough-cookie/lib/memstore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tough-cookie/lib/permuteDomain.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/tough-cookie/lib/permuteDomain.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tough-cookie/lib/pubsuffix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tough-cookie/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/tough-cookie/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/verror/node_modules/assert-plus/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/verror/node_modules/assert-plus/CHANGES.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/verror/node_modules/assert-plus/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/verror/node_modules/assert-plus/assert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/verror/node_modules/assert-plus/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -43,25 +501,141 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="111053637">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="ItemsList" value="2" />
+          <entry key="SearchPlugin" value="3" />
+          <entry key="SearchPlugins" value="3" />
+          <entry key="app" value="1" />
+          <entry key="app1" value="1" />
+          <entry key="css" value="1" />
+          <entry key="ejs" value="2" />
+          <entry key="fff" value="1" />
+          <entry key="js" value="8" />
+          <entry key="json" value="2" />
+          <entry key="jsx" value="9" />
+          <entry key="less" value="2" />
+          <entry key="log" value="2" />
+          <entry key="www" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="1" />
+          <entry key="EJS" value="2" />
+          <entry key="JSON" value="2" />
+          <entry key="JSX Harmony" value="16" />
+          <entry key="JavaScript" value="9" />
+          <entry key="Less" value="2" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Scratch" value="1" />
+          <entry key="Vue.js" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="ItemsList" value="7" />
+          <entry key="SearchPlugins" value="9" />
+          <entry key="app" value="5" />
+          <entry key="css" value="1" />
+          <entry key="ejs" value="80" />
+          <entry key="js" value="179" />
+          <entry key="json" value="30" />
+          <entry key="jsx" value="109" />
+          <entry key="less" value="73" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="1" />
+          <entry key="EJS" value="80" />
+          <entry key="JSON" value="30" />
+          <entry key="JSX Harmony" value="130" />
+          <entry key="JavaScript" value="179" />
+          <entry key="Less" value="73" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/index.ejs">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app.js">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/webpack.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="36" column="60" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="XSLT Stylesheet" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>var</find>
+      <find>mode</find>
+      <find>lightcyan</find>
+      <find>css-loader</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>let</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Projects\Imperium_git\Imperium</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/public/app/components/SearchPlugins" />
+        <option value="$PROJECT_DIR$/public/app/components/ItemsList" />
+        <option value="$PROJECT_DIR$/public/app/components/app" />
+        <option value="$PROJECT_DIR$/public/app/app" />
+        <option value="$PROJECT_DIR$/app/app" />
+        <option value="$PROJECT_DIR$/app/components/SearchPlugins" />
+        <option value="$PROJECT_DIR$/app/components/SearchPlugins.jsx" />
+        <option value="$PROJECT_DIR$/app/components/ItemsList" />
+        <option value="$PROJECT_DIR$/public.js" />
+        <option value="$PROJECT_DIR$/public/js/main.js" />
+        <option value="$PROJECT_DIR$/views/index.ejs" />
+        <option value="$PROJECT_DIR$/app/styles/css.css" />
+        <option value="$PROJECT_DIR$/app/app.jsx" />
+        <option value="$PROJECT_DIR$/app/components/ItemsList.jsx" />
+        <option value="$PROJECT_DIR$/app/styles/style.less" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
@@ -98,6 +672,17 @@
               <item name="Imperium" type="b2602c69:ProjectViewProjectNode" />
               <item name="Imperium" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Imperium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Imperium" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Imperium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Imperium" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -106,12 +691,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSX Harmony" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.11.3" />
-    <property name="last_opened_file_path" value="C:/Program Files/nodejs/node.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../React/imp_imp" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\Imperium_git\Imperium" />
+      <recent name="C:\Projects\Imperium_git\Imperium\public\app" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -137,30 +731,34 @@
       <updated>1532607841143</updated>
       <workItem from="1532607842867" duration="666000" />
       <workItem from="1533724534433" duration="950000" />
+      <workItem from="1533757781403" duration="599000" />
+      <workItem from="1534354455864" duration="692000" />
+      <workItem from="1534704041157" duration="14424000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1616000" />
+    <option name="totallyTimeSpent" value="17331000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496474" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23977433" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4992948" weight="0.19946092" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32884097" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4992948" weight="0.32884097" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.119887166" side_tool="true" visible="true" weight="0.32884097" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.8801128" visible="true" weight="0.32884097" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -173,14 +771,140 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+    <entry file="file://$PROJECT_DIR$/public/app/components/SearchPlugin">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/components/SearchPlugin">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.less">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app1">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.jsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/SearchPlugins">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/ItemsList">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/npm-debug.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="43" selection-start-column="43" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1182" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/assets/bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/source/bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/ItemsList.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/SearchPlugins.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="36" column="60" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
