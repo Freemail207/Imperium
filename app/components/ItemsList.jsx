@@ -1,6 +1,6 @@
 const React = require('react');
 let SearchPlugin = require('./SearchPlugins.jsx');
-//import '../styles/style.less'
+import '../styles/style.less'
 
 class ItemsList extends React.Component {
     constructor(props){

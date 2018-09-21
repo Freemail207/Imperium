@@ -6,10 +6,9 @@ const propsValues = {
     title: "Список смартфонов",
     items: [
         "HTC U Ultra",
-        "iPhone 7",
+        "iPhon5ddd 7",
         "576567Pixel",
         "Huawei P9",
-        "Meizu Pro 6",
         "Asus Zenfone 3"
     ]
 };
